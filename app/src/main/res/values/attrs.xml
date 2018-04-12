@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="ListPreferenceMultiSelect">
+        <attr name="separator" format="string"/>
+    </declare-styleable>
+
+    <declare-styleable name="MenuCellLayout">
+        <attr name="titleText" format="string"/>
+        <attr name="imgSrc" format="integer"/>
+    </declare-styleable>
+
+    <attr name="directiona">
+        <enum name="rightToLeft" value="0"/>
+        <enum name="bottomToTop" value="1"/>
+        <enum name="leftToRight" value="2"/>
+        <enum name="topToBottom" value="3"/>
+    </attr>
+
+    <declare-styleable name="MultiDirectionSlidingDrawer">
+        <attr name="handle" format="reference"/>
+        <attr name="content" format="reference"/>
+        <attr name="directiona"/>
+        <attr name="bottomOffset" format="dimension"/>
+        <attr name="topOffset" format="dimension"/>
+        <attr name="allowSingleTap" format="boolean"/>
+        <attr name="animateOnClick" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="SquareImageView">
+        <attr name="baseOnHeight" format="boolean"/>
+    </declare-styleable>
+
+    <declare-styleable name="IntermediateProgressBarStyle">
+        <attr name="intermediateProgressBarStyle" format="reference"/>
+    </declare-styleable>
+
+    <declare-styleable name="IntermediateProgressBar">
+        <attr name="ipb_color" format="color"/>
+        <attr name="ipb_gradientColorArray" format="reference"/>
+        <attr name="ipb_sweepSpeed" format="float"/>
+        <attr name="ipb_rotationSpeed" format="float"/>
+        <attr name="ipb_minSweepAngle" format="float"/>
+        <attr name="ipb_maxSweepAngle" format="float"/>
+        <attr name="ipb_startAngle" format="float"/>
+        <attr name="ipb_sweep" format="boolean"/>
+        <attr name="ipb_strokeWidth" format="dimension"/>
+        <attr name="ipb_strokeCap" format="enum">
+            <enum name="butt" value="0"/>
+            <enum name="round" value="1"/>
+            <enum name="square" value="2"/>
+        </attr>
+        <attr name="ipb_size" format="dimension"/>
+    </declare-styleable>
+</resources>

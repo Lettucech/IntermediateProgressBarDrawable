@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <string-array name="intermediate_progress_bar_gradient">
+        <item>#FF0000</item>
+        <item>#00FF00</item>
+        <item>#0000FF</item>
+    </string-array>
+</resources>
